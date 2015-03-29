@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <title>ProyectoSW</title>
+        <link href="estilo.css" rel="stylesheet"type="text/css">
+    </head>
+    <body>
+        <h1>Documento de Diseño</h1>
+        <h2>ParteI</h2>
+            <p>El usuario al llegar a la página principal podrá explorar música, videos así como ver los streamings que se estén retransmitiendo                en ese momento así como la capacidad de escribir comentarios en directo. También podrá ver las canciones más escuchadas y los                    videos más vistos. Por último el usuario podrá registrarse o iniciar sesión si quiere acceder a sus contenidos guardados.</p>
+
+            <p>En el registro el usuario deberá introducir una serie de datos de tipo personal y una contraseña para posteriores accesos. Una vez                que se ha registrado o iniciado sesión el usuario podrá acceder a su información personalizada. Desde la página principal del                    usuario también puede acceder a su información personal y editarla a su gusto, como subir una foto de perfil. También en esta                    página el usuario podrá eliminar su cuenta.</p>
+
+            <p>Desde la página principal si el usuario ha sido registrado como artista tendrá también la posibilidad de subir contenido como                    nuevas canciones, videos. Dentro de la página de subir contenido nos encontramos con la posibilidad de subir un contenido en                      streaming o en vivo. Ahí el artista tendrá que elegir entre si quiere hacer un streaming de concierto o de ensayo así como una                    breve descripción del mismo.</p>
+
+            <p>Todo usuario también tendrá la capacidad explorar música, que puede hacerlo a través de la búsqueda de una canción concreta, un                  género especifico o mediante un artista. La música que encuentre podrá escucharla y si quiere el usuario registrado y el artista                  podrán añadirlo  a sus playlists para poder escucharlo de manera más rápida. En la página personal del usuario/artista podrá                      editar esas playlist y añadir nuevas playlists así como editar las ya existentes.</p>
+
+            <p>Por último el usuario administrador será capaz de eliminar a un usuario si así lo cree conveniente así como eliminar contenidos de                diferentes áreas como los comentarios de videos o streamings.</p>
+
+        <table>
+            <thead>
+              <tr>
+                 <th>Casos de uso</th>
+                 <th>Descripción</th>
+                 <th>Usuarios involucrados</th>
+                 <th>Enlace prototipo Papel</th>
+              </tr>
+            </thead>
+            <tfoot>
+            </tfoot>
+            <tbody>
+                  <tr>
+                     <td>Login</td>
+                     <td>En esta pantalla el usuario accede al sistema</td>
+                     <td>Todos</td>
+                     <td><a href="img/mockups/montadas/df_login_window.tiff" target="_blank">Imagen</a></td>
+                  </tr>
+                  <tr>
+                      <td>Alta Usuarios</td>
+                      <td>El administrador da de alta a los usuarios</td>
+                      <td>Administrador</td>
+                      <td></td>
+                  </tr>
+                  <tr>
+                      <td>Buscar Contenidos</td>
+                      <td>Buscar canciones y videos en la BD</td>
+                      <td>Todos</td>
+                      <td><a href="img/mockups/montadas/df_search_results.tiff">Imagen</a></td>
+                  </tr>
+                  <tr>
+                      <td>Crear playlist</td>
+                      <td>Crea una nueva playlist vacía</td>
+                      <td>Artista y usuario registrado</td>
+                      <td></td>
+                  </tr>
+                  <tr>
+                      <td>Modificar playlist</td>
+                      <td>Añadir y eliminar canciones de una playlist</td>
+                      <td>Artista y usuario registrado</td>
+                      <td></td>
+                  </tr>
+                  <tr>
+                      <td>Añadir amigos</td>
+                      <td>En la pantalla del perﬁl de un usuario ajeno, se permite añadirlo a tu lista de amigos</td>
+                      <td>Artista y usuario registrado</td>
+                      <td><a href="img/mockups/montadas/df_perfil_ajeno.png">Imagen</a></td>
+                  </tr>
+                  <tr>
+                      <td>Subir Contenido</td>
+                      <td>Añadir música o videos a la base de datos</td>
+                      <td>Artista</td>
+                      <td></td>
+                  </tr>
+                   <tr>
+                      <td>Modificar Perfil</td>
+                      <td>Permite alterar tu información personal</td>
+                      <td>Usuario registrado</td>
+                      <td></td>
+                  </tr>
+                   <tr>
+                      <td>Reproducir música</td>
+                      <td>Reproducir una canción</td>
+                      <td>Todos</td>
+                      <td></td>
+                  </tr>
+                  <tr>
+                      <td>Reproducir videos</td>
+                      <td>Reproducir un vídeo</td>
+                      <td>Todos</td>
+                      <td></td>
+                  </tr>
+                  <tr>
+                      <td>Empezar ensayo</td>
+                      <td>Empieza un streaming de un ensayo en directo</td>
+                      <td>Artista</td>
+                      <td><a href="img/mockups/montadas/df_artist_upload_contents.tiff">Imagen</a></td>
+                  </tr>
+                   <tr>
+                      <td>Empezar concierto</td>
+                      <td>Empieza un streaming de un concierto en directo</td>
+                      <td>Artista</td>
+                      <td><a href="img/mockups/montadas/df_artist_upload_contents.tiff">Imagen</a></td>
+                  </tr>
+                  <tr>
+                      <td>Explorar géneros</td>
+                      <td>Visualizar todas las canciones de un mismo géner</td>
+                      <td>Todos</td>
+                      <td></td>
+                  </tr>
+                  <tr>
+                      <td>Explorar álbum</td>
+                      <td>Visualizar las canciones de un álbum</td>
+                      <td>Todos</td>
+                      <td><a href="img/mockups/montadas/df_album_view.tiff">Imagen</a></td>
+                  </tr>
+                  <tr>
+                      <td>Explorar artista</td>
+                      <td>Visualizar todos los contenidos que ha subido un artista en concreto</td>
+                      <td>Todos</td>
+                      <td></td>
+                  </tr>
+                  <tr>
+                      <td>Eliminar contenidos</td>
+                      <td>Eliminar canciones o vídeos de la base de datos</td>
+                      <td>Artista y administrador</td>
+                      <td></td>
+                  </tr>
+                  <tr>
+                      <td>Eliminar usuario</td>
+                      <td>Elimina a un usuario</td>
+                      <td>Administrador</td>
+                      <td></td>
+                  </tr>
+                  <tr>
+                      <td>Darse de baja</td>
+                      <td>Eliminar tu propia cuenta y todos los datos asociados a ella</td>
+                      <td>Artista y usuario registrado</td>
+                      <td></td>
+                  </tr>
+                  <tr>
+                      <td>Comentar streaming</td>
+                      <td>Poner comentarios en una transmisión en directo (ensayos o conciertos</td>
+                      <td>Artista y usuario registrado</td>
+                      <td><a href="img/mockups/montadas/df_live_video.tiff">Imagen</a></td>
+                  </tr>
+                
+            </tbody>
+        </table>
+        <h2>ParteII</h2>
+        <h3>Apariencia:</h3>
+            <ul>
+                <li>Paleta de colores: F3D458(under), F39C12(over),E6E6E6,4F4F4F(contrast).</li>
+                <li>Tipografia: Muli,Montserrat,sans-serif.</li>
+                <li>BG: Solid white(some subtle bg patterns in silver). </li>
+                <li>Corner Treatments: none,minimal.</li>
+                <li>Borders: normal,light (mirroring logo struct).</li>
+            </ul>
+        
+        <h3>Organización del contenido:</h3>
+            <ul>
+                <li>Patrones: Feature,serch,browse+news stream feed.</li>
+            </ul>
+        <h3>Navegación:</h3>
+               <ul>
+                <li>Modelo de navegación: Fully connected.</li>
+                <li>Puntos de entrada: Home/Login | Register.</li>
+                <li>Punto de escape: logo.</li>
+                <li>Navegación: normal.</li>
+                <li>Footer: Sitemap Footer.</li>
+                <li>Sign-in tools:Arriba,Derecha.</li>
+                <li>Breadcrumps: yes.</li>
+            </ul>
+        <h3>Disposición del contenido(patrones):</h3>
+            <ul>
+                <li>Grif of Equals.</li>
+                <li>Right/Left Alignment.</li>
+                <li>Diagonal Balance¿?.</li>
+            </ul>
+    </body>
+</html>

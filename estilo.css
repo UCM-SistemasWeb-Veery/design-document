@@ -1,0 +1,22 @@
+p{
+    margin: 2.5%;
+}
+table,th,tbody,td{
+    margin: 2.5%;
+    border: 1px solid black;
+}
+h1{
+    margin: 1%;
+    color:darkcyan;
+}
+h2{
+    margin: 1.5%;
+    color:cadetblue;
+}
+h3{
+    margin: 2.5%;
+    color:black;
+}
+ul{
+    margin: 3%;
+}
