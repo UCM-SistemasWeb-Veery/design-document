@@ -22,7 +22,29 @@
             <li class="menu"><a class="menu" href="../img/main-ui-v1.png" target="_blank">· Boceto</a></li>
         </ol>
     </div>
-    <div id="contenido"> 
+    <div id="descripcion">
+      <h3>Descripción de la interacción con el usuario:</h3>
+
+      <h4>1. Situación inicial</h4>
+      <p> Cuando el usuario llega a la página principal esta mostrará por defecto una lista con las noticias más recientes. Además, mediante la barra lateral izquierda podrá explorar la música, videos y ver los streamings que se estén retransmitiendo. También podrá ver las canciones más escuchadas y los videos más vistos. Por último, el usuario podrá registrarse o iniciar sesión si quiere acceder a sus contenidos guardados o escribir comentarios.</p>
+
+      <h4>2. Registro y login</h4>
+      <p>En el registro el usuario deberá introducir una serie de datos de tipo personal y una contraseña para posteriores accesos. Una vez que se ha registrado o iniciado sesión el usuario podrá acceder a su información personalizada. Desde la página principal del usuario también puede acceder a su información personal y editarla a su gusto, como subir una foto de perfil. También en esta página el usuario podrá eliminar su cuenta.</p>
+
+      <h4>3. Página principal de usuario registrado</h4>
+      Desde esta página el usuario puede acceder a sus playlists, modificarlas o crear otras nuevas. También puede acceder a las pantallas para modificar su perfil/darse de baja.
+      <p>Para explorar los contenidos existentes deberá hacerlo a través de la barra lateral izquierda. Puede buscar una canción conctreta o bien un género o un artista específico. La música que encuentre podrá escucharla y añadirla a una de sus playlists si así lo desea.</p>
+
+      <h4>4. Página principal de artista</h4>
+      <p>Desde su página principal el artista tiene accesos a las pantallas para subir contenidos como canciones y vídeos, así como empezar la transmisión de un ensayo en vivo o un concierto.</p>
+      <p>Sigue teniendo la capacidad de explorar todos los contenidos de la aplicación del mismo modo que lo hacen el usuario registrado y el usuario anónimo.</p>
+
+      <h4>5. Página principal de administrador</h4>
+      <p>Por último el usuario administrador será capaz de eliminar a un usuario si así lo cree conveniente así como eliminar contenidos de diferentes áreas como los comentarios de videos o streamings.</p>
+    </div>
+
+    <div id="contenido">
+      <h3>Tabla con los casos de uso:</h3> 
         <table>
             <thead>
               <tr>
@@ -56,7 +78,7 @@
                   <tr>
                       <td>Crear playlist</td>
                       <td>Crea una nueva playlist vacía</td>
-                      <td>Usuario registrado</td>
+                      <td>Usuario registrado (*1)</td>
                       <td><a href="../img/mockups/montadas/df_own_profile.jpg" target="_blank">Imagen</a></td>
                   </tr>
                   <tr>
@@ -149,9 +171,9 @@
                       <td>Artista y usuario registrado</td>
                       <td><a href="../img/mockups/montadas/df_live_video.jpg" target="_blank">Imagen</a></td>
                   </tr>
-                
             </tbody>
         </table>
+        <p class="italica">(*1) Es posible que en algunas imágenes esté reflejada todavía la posibilidad de que un artista cree sus propias playlist a pesar de que hemos decidido que únicamente los 'usuarios registrados' tengan esta posibilidad. Esto se debe a que decidimos eliminar esta funcionalidad después de hacer los bocetos en papel.</p>
     </div>
 </body>
 </html>

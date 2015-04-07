@@ -13,10 +13,12 @@ table,th,tbody,td{
     font-weight: bold;
     list-style-type: none;
 }
-#contenido{
+#contenido, #descripcion{
     margin: 1.5% 1.5% 1.5% 1.5%;
-    
 }
 #equipo{
     color:black;
+}
+.italica {
+	font-style: italic;
 }
