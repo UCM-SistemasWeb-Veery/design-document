@@ -1,0 +1,20 @@
+index.html   tendria las noticias
+posible pop up con lo de hola señor
+busqueda.html
+
+album.html
+subida.html
+
+header.php
+footer.php
+sidebar.php
+
+login.html
+registro.html
+
+videos.html
+online-streaming.html
+
+usuario.html
+usuario_ajeno.html
+artista.html
